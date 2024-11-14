@@ -5,18 +5,18 @@ z=int(input("Podaj 3 liczbe:"))
 if x<y and x<z:
     print(x)
     if y<z:
-        print(y,z)
+        print(y,"\n",z)
     else:
         print(z,"\n",y)
 elif y<x and y<z:
     print(y)
     if x < z:
-        print(x, z)
+        print(x,"\n",z)
     else:
-        print(z, "\n", x)
+        print(z,"\n",x)
 elif z<x and z<y:
     print(z)
     if x < y:
-        print(x, y)
+        print(x,"\n",y)
     else:
-        print(y, "\n", x)
+        print(y,"\n",x)
