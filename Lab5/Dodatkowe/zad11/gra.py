@@ -4,7 +4,7 @@ a=int(input("Podaj dolny (min 1) :  "))
 b=int(input("Podaj górny przedział (min 10): "))
 
 dobra_liczba = f_gry.losowanie(a,b)
-print(dobra_liczba)
+#print(dobra_liczba)
 proby = 3
 while proby>0:
     liczba = int(input("Podaj liczbe: "))
